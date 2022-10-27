@@ -1,0 +1,380 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.persons {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(245, 249, 249);
+    font-size: 14px;
+    /* font-weight: 100; */
+    text-decoration: none;
+    text-transform: capitalize;
+    /* transition: 0.5s; */
+    margin: 5px;
+}
+
+nav a:hover {
+    text-decoration: double;
+    background-color: white;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+}
+
+select option {
+    padding: 10px;
+}
+
+.secondMenu a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.secondMenu a:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+}
+
+.subHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subHeader img {
+    width: 200px;
+}
+
+.subMenu a {
+    color: rgb(57, 54, 54);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px;
+    text-transform: capitalize;
+}
+
+.subMenu a:hover {
+    color: black;
+    text-decoration: underline yellow 5px;
+}
+
+.subMenu2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+
+.subHeader .subMenu2 a:nth-child(1) {
+    border: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+}
+.subHeader .subMenu2 a:hover:nth-child(1) {
+   text-shadow: 0px 0px 2px black;
+}
+
+.subHeader .subMenu2 a:nth-child(2) {
+    box-shadow: 3px 5px 36px rgb(223, 219, 219);
+    padding: 10px;
+    border-radius: 5px;
+}
+.subHeader .subMenu2 a:nth-child(3) {
+    background-color: yellow;
+    box-shadow: 3px 5px 36px rgb(223, 219, 219);
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.menu3{
+margin-left: 10px;
+margin-top: 30px;
+}
+.menu3 a{
+    text-decoration: none;
+    color: rgb(158, 149, 149);
+    margin: 3px;
+    font-size: 11px;
+}
+
+.menu3 a:nth-child(3){
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.banner .text{
+    max-width: 450px;
+    min-width: 300px;
+}
+.banner .text h2{
+    font-size: 50px;
+}
+.banner .text p{
+    line-height: 20px;
+    color: #2a2c29;
+}
+.banner .text a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.banner .text a:hover{
+    background-color: orange;
+}
+.banner img{
+    max-width: 660px;
+    min-width: 350px;
+    height: auto;
+    cursor:zoom-in;
+}
+.article{
+    background-color: #00c389;
+    padding: 20px;
+}
+.headerArticle{
+    text-align: center;
+    /* margin-top: 80px; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+    border-bottom: solid 1px;
+}
+.article .headerArticle a{
+    text-decoration: none;
+    color: #5e635c;
+    font-weight: 500;
+    padding: 25px 10px 10px;
+}
+.article .headerArticle a:hover{
+    border-bottom: solid;
+    border-color: yellow;
+    border-spacing: 20px;
+}
+
+.subTitle h3{
+    font-size: 50px;
+    color: #2a2c29;
+}
+
+
+
+
+/* media query */
+@media (max-width:768px) {
+    .header {
+        background-color: white;
+        color: black;
+        display: block;
+        margin-top: 30px;
+    }
+    
+    .persons {
+        background-color: white;
+        color: black;
+    }
+    
+    nav a {
+        display: block;
+        color: rgb(10, 10, 10);
+        line-height: 40px;
+    }
+    
+    nav a:hover {
+        text-decoration: double;
+        background-color: white;
+        color: rgb(10, 10, 10);
+        padding: 10px;
+    }
+    
+    select option {
+        padding: 10px;
+    }
+    
+    .secondMenu a {
+        color: white;
+        text-decoration: none;
+        margin: 5px;
+    }
+    
+    .secondMenu a:hover {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    .subHeader {
+        display: block;
+    }
+    
+    .subHeader img {
+        width: 200px;
+        position: absolute;
+        top: 0%;
+    }
+    
+    .subMenu a {
+        display: block;
+        color: rgb(8, 8, 8);
+        line-height: 40px;
+    }
+    
+    .subMenu a:hover {
+        color: black;
+        text-decoration: underline yellow 5px;
+    }
+    
+    .subMenu2 a {
+        display: block;
+        text-align: center;
+    }
+    
+    .subHeader .subMenu2 a:nth-child(1) {
+        border: 1px;
+        border-radius: 10px;
+        border-style: solid;
+        padding: 10px;
+    }
+    .subHeader .subMenu2 a:hover:nth-child(1) {
+       text-shadow: 0px 0px 2px black;
+    }
+    
+    .subHeader .subMenu2 a:nth-child(2) {
+        box-shadow: 3px 5px 36px rgb(223, 219, 219);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .subHeader .subMenu2 a:nth-child(3) {
+        background-color: yellow;
+        box-shadow: 3px 5px 36px rgb(223, 219, 219);
+        padding: 10px;
+        margin-right: 40px;
+        border-radius: 20px;
+        font-weight: 700;
+    }
+    .menu3{
+    margin-left: 10px;
+    margin-top: 30px;
+    }
+    .menu3 a{
+        text-decoration: none;
+        color: rgb(158, 149, 149);
+        margin: 3px;
+        font-size: 11px;
+    }
+    
+    .menu3 a:nth-child(3){
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-left: 80px;
+        padding-right: 90px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .banner .text{
+        text-align: center;
+        max-width: 450px;
+        position: relative;
+        top: 220px;
+    }
+    .banner .text h2{
+        font-size: 20px;
+    }
+    .banner .text p{
+        line-height: 20px;
+        color: #2a2c29;
+    }
+    .banner .text a{
+        text-decoration: none;
+        background-color: yellow;
+        color: black;
+        padding: 10px 25px;
+        border-radius: 30px;
+        font-weight: 700;
+    }
+    .banner .text a:hover{
+        background-color: orange;
+    }
+    .banner img{
+        position: relative;
+        bottom:160px;
+    }
+    .article{
+        background-color: #00c389;
+        padding: 20px;
+    }
+    .headerArticle{
+        text-align: center;
+        /* margin-top: 80px; */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: white;
+        border-bottom: solid 1px;
+    }
+    .article .headerArticle a{
+        text-decoration: none;
+        color: #5e635c;
+        font-weight: 500;
+        padding: 25px 10px 10px;
+    }
+    .article .headerArticle a:hover{
+        border-bottom: solid;
+        border-color: yellow;
+        border-spacing: 20px;
+    }
+    
+    .subTitle h3{
+        font-size: 50px;
+        color: #2a2c29;
+    }
+}
